@@ -9,7 +9,12 @@ export default async function Home() {
   // console.log('API is live')
   
   return (
-   
+    <main >
+      
+       {/* onClick={() => console.log("mama mia")} 
+       <h1 >soICouldDOThis api</h1> */}
+
+    </main>
   )
 
   
