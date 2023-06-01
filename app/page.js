@@ -13,7 +13,9 @@ export default async function Home() {
       
        {/* onClick={() => console.log("mama mia")} 
        <h1 >soICouldDOThis api</h1> */}
-
+<div className="grid gap-16 grid-cols-fluid">
+    
+      </div>
     </main>
   )
 
