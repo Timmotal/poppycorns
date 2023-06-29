@@ -8,6 +8,8 @@ export  async function generateStaticParams() {
 
   const res = await data.json()
 
+  return res.results.map((movie) => ({
+  }))
 }
 
 
