@@ -6,6 +6,7 @@ import Image from "next/image";
 export  async function generateStaticParams() {
     const data = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}`)
 
+  const res = await data.json()
 
 }
 
