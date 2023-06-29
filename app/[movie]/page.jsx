@@ -4,6 +4,9 @@ import Image from "next/image";
 
 // we want to pre-render the pages, serve them static
 export  async function generateStaticParams() {
+    const data = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}`)
+
+
 }
 
 
