@@ -23,6 +23,7 @@ export default async function MovieDetail({ params }) {
     const { movie } = params // this is  amazes me
     // but when I actually remember how params work, I am now understanding it better
     // we are destructuring movie from the params
+    const imagePath = "https://image.tmdb.org/t/p/w1280/"
     
 
  )
