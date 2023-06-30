@@ -24,7 +24,9 @@ export default async function MovieDetail({ params }) {
     // but when I actually remember how params work, I am now understanding it better
     // we are destructuring movie from the params
     const imagePath = "https://image.tmdb.org/t/p/w1280/"
-    
+    const data = await fetch(`https://api.themoviedb.org/3/movie/${movie}?api_key=${process.env.API_KEY}`,
+    // { next: { revalidate: 60}} // since cache is by default, we can refresh the page every 60 seconds, we re-fetch movies
+    )
 
  )
     
