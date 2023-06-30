@@ -9,6 +9,12 @@ export  async function generateStaticParams() {
   const res = await data.json()
 
   return res.results.map((movie) => ({
+    movie: toString(movie.id),// so essentially we are going over each movie, get their ID
+    // then go over each of them and render them out
+
+    // so we are mapping the IDs to our URLs
+    
+    // these are benefits of pre-rendering unless we have revalidate somewhere
   }))
 }
 
