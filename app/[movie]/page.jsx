@@ -28,8 +28,10 @@ export default async function MovieDetail({ params }) {
     // { next: { revalidate: 60}} // since cache is by default, we can refresh the page every 60 seconds, we re-fetch movies
     )
 
- )
+    // DevEd says, we might not work with fetch API, you cannot re-fetch {revalidate} here
+    // const data = await prisma.posts.findMany()
+    // // console.log(params)
     
- 
+    const res = await data.json()
 
 
