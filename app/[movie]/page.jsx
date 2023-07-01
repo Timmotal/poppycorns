@@ -36,5 +36,8 @@ export default async function MovieDetail({ params }) {
 
 
     return <div>
+        <div>
+       
+        </div>
     </div>
 }
