@@ -37,7 +37,7 @@ export default async function MovieDetail({ params }) {
 
     return <div> 
         <div>
-        <h1 className="text-2xl"></h1>
+        <h1 className="text-2xl">{res.title}</h1>
       
         </div>
     </div>
