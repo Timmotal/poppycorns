@@ -35,9 +35,10 @@ export default async function MovieDetail({ params }) {
     const res = await data.json()
 
 
-    return <div>
+    return <div> 
         <div>
-       
+        <h1 className="text-2xl"></h1>
+      
         </div>
     </div>
 }
