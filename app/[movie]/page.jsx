@@ -38,6 +38,7 @@ export default async function MovieDetail({ params }) {
     return <div> 
         <div>
         <h1 className="text-2xl">{res.title}</h1>
+        <h2 className="text-lg">{res.release_date}</h2>
       
         </div>
     </div>
