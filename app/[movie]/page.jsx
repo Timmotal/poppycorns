@@ -49,7 +49,7 @@ export default async function MovieDetail({ params }) {
             priority //since it is gonna render on the front page, we add this to make it paint quick
 
         />
-        <p></p> 
+        <p>{res.overview}</p> 
         </div>
     </div>
 } 
