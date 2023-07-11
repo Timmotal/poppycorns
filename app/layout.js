@@ -5,6 +5,7 @@ import { Poppins } from 'next/font/google'
 const montserrat = Montserrat({
   weight: ["400", "700"],
   subsets: ["latin"],
+  variable: '--font-montserrat', //this is how we hook it up with tailwind
 })
 
 
