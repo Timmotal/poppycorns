@@ -8,5 +8,8 @@ const montserrat = Montserrat({
   variable: '--font-montserrat', //this is how we hook it up with tailwind
 })
 
+const poppins = Poppins({
+})
+
 
 
