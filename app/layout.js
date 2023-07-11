@@ -9,6 +9,7 @@ const montserrat = Montserrat({
 })
 
 const poppins = Poppins({
+  weight: ["400", "700"],
 })
 
 
