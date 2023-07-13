@@ -15,4 +15,8 @@ const poppins = Poppins({
 })
 
 
+export const metadata = {
+  
+}
+
 
