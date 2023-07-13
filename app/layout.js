@@ -11,6 +11,7 @@ const montserrat = Montserrat({
 const poppins = Poppins({
   weight: ["400", "700"],
   subsets: ["latin"],
+  variable: '--font-poppins', //this is how we hook it up with tailwind
 })
 
 
